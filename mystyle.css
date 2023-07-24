@@ -140,6 +140,7 @@ body {
 }
 
 .foot-bar {
+    margin-top: 20px;
     display: flex;
     width: 100%;
     height: 210px;
@@ -160,6 +161,14 @@ body {
     display: flex;
     align-items: center;
     /* font-size: 19px; */
+}
+
+.foot-bar-btn-img-left:hover{
+    cursor: pointer;
+}
+
+.foot-bar-btn-img-right:hover{
+    cursor: pointer;
 }
 
 .foot-bar-btn-img{
