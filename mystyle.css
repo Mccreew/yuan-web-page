@@ -3,6 +3,16 @@ body {
     justify-content: center;
 }
 
+/* **************通用设置********* */
+.common-shadow{
+    box-shadow: 2px 2px 14px -9px;
+}
+
+.common-border{
+    border-radius: 6px;
+}
+/* ****************************** */
+
 .center {
     width: 100%;
     /* border: 5px solid #8bb4c0; */
@@ -37,11 +47,23 @@ body {
 }
 
 .news-bg-img {
-    height: 659px;
-    background-size: cover;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 .news-bg-img-container{
     display: flex;
+    width: 100%;
+}
+
+/* 背景图片css动画 */
+@keyframes bg-img-fade {
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%;
+    }
 }
 
 .main-container {
@@ -61,7 +83,7 @@ body {
     flex-direction: column;
     /* margin: 10px; */
     padding: 10px;
-    align-items: center;
+    align-items: center;  
 }
 
 .first-1 {
@@ -121,20 +143,28 @@ body {
     display: flex;
     width: 100%;
     height: 210px;
-    background-color: sandybrown;
+    border-radius: 6px;
+    /* background-color: sandybrown; */
     justify-content: space-around;
 }
+
 
 .foot-bar-container {
     width: 290px;
     /* height: 200px; */
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
+
 }
 
 .foot-bar-btn {
     display: flex;
     align-items: center;
-    font-size: 19px;
+    /* font-size: 19px; */
+}
+
+.foot-bar-btn-img{
+    width: 40px;
+    height: 40px;
 }
 
 .main-img {
@@ -368,4 +398,42 @@ body {
     background-color: #8bc09c;
     width: 100%;
     height: 30px;
+}
+
+
+/* 智能机器人 */
+.info-container{
+    display: flex;
+    width: 100%;
+}
+
+.robot-main-container{
+    width: 100%;
+}
+
+.robot-class-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.robot-class-card{
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.robot-class-card-img{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.robot-class-card-title{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
