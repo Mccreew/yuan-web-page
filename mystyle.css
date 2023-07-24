@@ -1,0 +1,371 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    width: 100%;
+    /* border: 5px solid #8bb4c0; */
+    margin: 5px 0px;
+}
+
+.second {
+    height: 403px;
+    margin: 20px;
+}
+
+
+.first_little_div {
+    /* border: 1px dotted red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.first_little_div:hover {
+    background-color: #d6a725;
+    cursor: pointer;
+}
+
+.logo-image {
+    background-image: url("imgs/logo.png");
+    height: 57px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.news-bg-img {
+    height: 659px;
+    background-size: cover;
+}
+.news-bg-img-container{
+    display: flex;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    /* background: #f3d8e9; */
+    justify-content: center;
+    align-items: center;
+    width: 1416px;
+}
+
+.first {
+    display: flex;
+    background-color: #8bb4c0;
+    height: 240px;
+    width: 311px;
+    flex-direction: column;
+    /* margin: 10px; */
+    padding: 10px;
+    align-items: center;
+}
+
+.first-1 {
+    background-color: #d6a725;
+    /* height: 38px; */
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#text-desc {
+    height: 200px;
+    width: 200px;
+    background-color: #d64e25;
+}
+
+.three {
+    display: flex;
+    /* background-color: #d6a725; */
+    justify-content: center;
+}
+
+.three-1 {
+    background-color: #da3e00;
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px 0px;
+    border-radius: 20px;
+}
+
+.three-1:hover {
+    cursor: pointer;
+    background-color: #e97979
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar .left {
+    width: 300px;
+}
+
+.nav-bar .right {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-bar {
+    display: flex;
+    width: 100%;
+    height: 210px;
+    background-color: sandybrown;
+    justify-content: space-around;
+}
+
+.foot-bar-container {
+    width: 290px;
+    /* height: 200px; */
+    background-color: darkgreen;
+}
+
+.foot-bar-btn {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.main-img {
+    height: 500px;
+    background-color: #8bb4c0;
+    width: 100%;
+    /* position: relative; */
+    background-image: url("imgs/1.jpeg");
+}
+
+.main-img-search-input {
+    position: relative;
+    top: 60%;
+    left: 20%;
+    color: white;
+}
+
+
+
+/* 应用入口css */
+.app-container {
+    background-color: coral;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.app-container-body {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.app-container-head {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+}
+
+.app-container-card {
+    width: 434px;
+    height: 201px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.app-container-card-left {
+    height: 100%;
+    width: 80%;
+    /* background-color: aqua; */
+}
+
+.app-container-card-right {
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    background-color: cornflowerblue;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+}
+
+.app-container-card-right-box {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app-container-card-right-item {
+    height: 48px;
+    width: 93%;
+    background-color: deeppink;
+}
+
+.app-bottom {
+    width: 100%;
+    background-color: bisque;
+}
+
+.border-radius-card div {
+    /* border-radius: 6px; */
+}
+
+.app-bottom-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-bottom-nav-bar {
+    width: 100%;
+    height: 300px;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: space-around;
+}
+
+.app-bottom-nav-item {
+    height: 100%;
+    background-color: khaki;
+    width: 300px;
+}
+
+.app-bottom-nav-card-img {
+    height: 200px;
+    background-color: #d64e25;
+}
+
+.app-bottom-nav-card-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.app-bottom-nav-card-desc {
+    color: grey;
+}
+
+.app-bottom-nav-card-text-box {
+    margin-left: 10px;
+}
+
+
+/* ========制度专区=============== */
+.zhidu-container {
+    width: 100%;
+}
+
+.zhidu-search-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.zhidu-classify-container-nav-bar {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.zhidu-classify-container-nav-bar-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.zhidu-classify-container-nav-bar-item {
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    border-right: 1px solid grey;
+    justify-content: center;
+    /* border-left: 1px solid grey; */
+}
+
+.zhidu-classify-container-nav-bar-item:last-child {
+    border: none;
+}
+
+.zhidu-classify-container-nav-bar-item:hover {
+    cursor: pointer;
+}
+
+.zhidu-doc-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.zhidu-doc-container-box {
+    width: 90%;
+}
+
+.zhidu-doc-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted grey;
+    padding: 10px;
+}
+
+.zhidu-doc-item-dot {
+    height: 4px;
+    width: 4px;
+    background-color: gray;
+    margin-right: 5px;
+}
+
+.zhidu-doc-item-left {
+    display: flex;
+    align-items: center;
+}
+
+.zhidu-bottom {
+    display: flex;
+    height: 300px;
+}
+
+.zhidu-bottom-left {
+    width: 50%;
+    background-color: #8bb4c0;
+}
+
+.zhidu-bottom-right {
+    background-color: #8bc09c;
+    width: 50%;
+}
+
+.zhidu-bottom-left-box {
+    margin: 60px
+}
+
+/*学习园地*/
+.server {
+    display: flex;
+    background-color: #8bc09c;
+    width: 100%;
+    height: 60px;
+    justify-content: flex-end;
+}
+
+.image {
+    background-color: #8bc09c;
+    width: 100%;
+    height: 30px;
+    margin: 1px
+}
+
+.study-seavch {
+    background-color: #8bc09c;
+    width: 100%;
+    height: 30px;
+}
