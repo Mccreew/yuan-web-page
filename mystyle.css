@@ -277,6 +277,16 @@ body {
     /* justify-content: space-evenly; */
 }
 
+.app-container-card-left-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #074c95;
+}
+
 .app-container-card-right-box {
     display: flex;
     height: 100%;
@@ -422,17 +432,36 @@ body {
 }
 
 .zhidu-bottom-left {
-    width: 50%;
-    background-color: #8bb4c0;
+    width: 40%;
+    /* background-color: #8bb4c0; */
 }
 
 .zhidu-bottom-right {
-    background-color: #8bc09c;
-    width: 50%;
+    /* background-color: #8bc09c; */
+    width: 60%;
+}
+
+.zhidu-bottom-right-img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 .zhidu-bottom-left-box {
-    margin: 60px
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    background-color: #00448ebd;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+.zhidu-bottom-left-box-text{
+    width: 70%;
+    line-height: 1.8em;
 }
 
 /*学习园地*/
@@ -493,4 +522,6 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
+    font-style: italic;
 }
